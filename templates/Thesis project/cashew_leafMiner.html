@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Cashew Leaf miner Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Cashew Leaf miner
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Leaf mining disease in cashew trees is caused by the larvae of certain insects
+            These leafmining insects belong to the order Lepidoptera and their larvae tunnel through leaves.
+            Cashew trees produce distinctive patterns of damage. Leaf miner infections can affect health and
+            Productivity of cashew tree.<br>
+            Here's how leafminer disease typically works on cashew trees: <br>
+            Larval feeding: Adult leaf miner moths or flies lay eggs on cashew tree leaves. when
+            When the eggs hatch, the resulting larvae feed on the leaf tissue between the upper and lower leaf surfaces. they are
+            Feeding, they create narrow, winding tunnels or "mines" in leaves. <br>
+            Visible damage: The presence of leaf miner larvae is often evident by snakes or crawls
+            Patterns on leaves, which are formed as larvae feed and tunnel. These patterns may vary
+            The appearance depends on the species of leaf miner. <br>
+            Effects on trees: Although leaf miners do not usually cause severe damage to cashew trees, they are heavy
+            Infection reduces photosynthesis and overall plant vigor. This may result in
+            Reduction affects growth and potentially cashew yield.
+            <br>
+            Management of leaf mining of cashew tree is usually cultural, chemical and
+            Preventive measures, including:
+            <br>     
+            <b>Spinosad, Neem Oil, Bacillus thuringiensis (Bt), Pyrethroids, Diatomaceous Earth, Mineral Oil,
+                Insect Growth Regulators (IGRs). </b> <br>
+            <b>Before using any pesticide, it is important to:</b><br>
+            Read and follow product label instructions carefully.
+            Wear appropriate protective clothing and gear when handling and applying pesticides.
+            Apply pesticides at recommended times and in suitable weather conditions.
+            Follow recommended safety precautions to protect yourself, others and the environment. <br><br>
+            Management: Controlling leaf miners on cashew trees can be challenging. Practice, eg
+            Maintaining good garden hygiene and removing infected leaves can help reduce infestation.
+            Insecticides can also be used to manage severe infestations, but care must be taken in selecting products
+            Which is safe for both the cashew tree and the environment. <br>
+            It is important for cashew growers to regularly monitor and receive their trees for signs of leaf mining damage
+            Appropriate measures for infection control, if necessary. Integrated Pest Management (IPM)
+            Strategies that combine cultural, biological, and chemical control methods can be effective in control
+            Reduces environmental impact when leaf mining pests. <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+     <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

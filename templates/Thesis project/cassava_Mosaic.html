@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Cassava mosaic Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Cassava mosaic
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Cassava mosaic disease is a viral disease affecting the cassava plant (Manihot esculenta), a
+            Tropical and subtropical crops. Cassava mosaic disease is caused by a group of viruses known as cassava
+            Mosaic geminivirus (CMG). The virus is transmitted to cassava plants by whiteflies (Bemicia).<br>
+            Here are some key features and effects of cassava mosaic disease: <br>
+            Symptoms: Cassava mosaic disease leads to a variety of symptoms in cassava plants, including: <br>
+            <b>Mosaic Patterns: </b>The most characteristic symptom is the development of mosaic patterns on leaves,
+            Where the normal green color of the leaves is interrupted by yellow or light green areas. These are mosaic patterns
+            Name the disease. <br>
+            <b>Leaf curling: </b>Affected leaves may become distorted and curled or curled. <br>
+            <b>Transmission: </b>Cassava mosaic disease is primarily transmitted by whiteflies, which acquire the virus
+            from infected cassava plants and then transmit it to healthy plants when they feed on them. <br>
+            Management: Management of cassava mosaic disease involves several strategies:
+            <br>
+             
+            <b>Plant resistant varieties: </b>planting cassava varieties that are genetically resistant or cassava tolerant
+            Mosaic disease is one of the most effective strategies for disease management. <br>
+            <b>Whitefly Control: </b>Managing whitefly populations through insecticides or biological control
+            Procedures can help reduce disease transmission.<br>
+            <b>Disease: </b>Removal and destruction of infected plants to prevent spread of virus to healthy plants. <br>
+            <b>Sanitation: </b>Maintaining good field hygiene and eliminating alternative host plants for whiteflies can help.
+            Reduce disease burden. <br>
+            <b>Crop rotation: </b>Practicing crop rotation to break disease cycle in cassava fields. <br>
+            Cassava mosaic disease is a significant concern because cassava is an important staple food crop for many people
+            Communities in Africa and other regions. Efforts to develop and promote cassava varieties are ongoing
+            Improving disease resistance and educating farmers on best disease management practices
+            To ensure food security and economic stability.
+            <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

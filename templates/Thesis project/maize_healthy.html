@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Maize Healthy
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Maize Healthy
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Determining the health of a maize (maize) plant involves examining various aspects of the plant's growth, appearance and overall condition. Here are a few indicators to help you determine if a corn plant is healthy:<br>
+            <b>1. Leaf color and texture:</b><br>
+            - Healthy corn plants should have vibrant, green leaves. Yellowing or browning of leaves can be a sign of nutrient deficiency or stress.<br>
+            - Leaves should be free from bruises, spots or discoloration that may indicate disease.<br>
+
+            <b>2. Strong stems:</b><br>
+            - Strong, sturdy stalks that stand straight up indicate a healthy corn plant. Weak, bent or drooping stems can be signs of insufficient support or disease.<br>
+
+            <b>3. Basic Health:</b><br>
+            - You can't always see the roots directly, but healthy corn plants usually have a well-developed root system. If you are uprooting a plant (carefully), look for white, hard roots. Dark, scaly, or rotting roots are signs of root problems.<br>
+
+            <b>4. Tassel and Silk:</b><br>
+            - The tassel is the male reproductive part of the corn plant, and the silk is the female reproductive part. They should be present and organized.<br>
+            - Silks should be fresh and not dry or damaged. Absence of silk may indicate poor pollination.<br>
+
+            <b>5. Ears and Kernels:</b><br>
+            - Healthy corn plants will produce well-filled ears with plump kernels. Kernels should be evenly developed, without gaps or abnormalities.<br>
+            - If kernels are shriveled, gapped, or show signs of mold or discoloration, this may be an indicator of stress, poor pollination, or disease.<br>
+
+            <b>6. Pests and Diseases:</b><br>
+            - Inspect plants regularly for signs of pests (such as aphids, caterpillars or corn borers) and diseases (such as rust, smut or leaf spot). Their presence may indicate health problems.<br>
+            <b>7. Growth and Height:</b><br>
+            - Maize plants should grow consistently and reach appropriate heights for their developmental stage.<br>
+            - Stunting or uneven height can be a sign of nutrient deficiency, poor soil conditions or water stress.<br>
+
+            <b>8. Weed and competition control:</b><br>
+            - Weeds can compete with corn plants for nutrients, water and sunlight. A healthy corn field is usually free of excessive weed growth.<br>
+
+            <b>9. General Strength:</b><br>
+            - Healthy corn plants exhibit overall vigor with an upright and uniform appearance. Dry, drooping or drooping plants often indicate moisture stress or other problems.<br>
+            <b>10. Fertilization and nutrient levels:</b><br>
+            - Proper fertilizer and soil nutrient levels are critical to corn health. Soil testing and nutrient analysis can help you determine if your corn plants are getting the right nutrients.<br>
+            <b>11. Weather and environmental conditions:</b><br>
+            - Environmental factors such as excessive heat, drought or strong winds can stress corn plants. Monitoring weather conditions and providing appropriate irrigation can help maintain plant health.<br>
+
+            <b>12. Disease and pest management:</b><br>
+            - Applying preventative measures, such as crop rotation, and using appropriate pesticides when necessary can help maintain plant health by reducing the risk of disease and pests.<br>
+            <b>13. Regular monitoring:</b><br>
+            - Regularly inspecting your corn crop is important to detect any potential problems early and take corrective action.<br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

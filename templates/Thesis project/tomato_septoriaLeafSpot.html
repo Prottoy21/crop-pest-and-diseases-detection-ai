@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Tomato Septoria leaf spot Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Tomato Septoria leaf spot
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Septoria leaf spot, also known as Septoria leaf blight or Septoria leaf spot disease, is a
+            Common fungal diseases affecting tomato plants (Solanum lycopersicum). It is caused by fungus
+            Septoria lycopersici and left untreated can cause significant damage to tomato leaves. This disease
+            Widespread and occurs in various regions, especially in warm and humid climates.<br>
+            Here are some key symptoms and effects of septoria leaf spot on tomato plants: <br>
+            Small, circular lesions: The most noticeable symptom is the development of small, circular lesions
+            The lower leaves of the tree. These lesions first appear as water-soaked spots and later become pale or
+            Light brown in center with dark brown to black margins. Lesions often have a characteristic "bull's-eye" appearance. <br>
+            Yellowing of leaves: Leaves near lesions often turn yellow (chlorotic), and as the disease progresses
+            May turn brown and dry. Severely infected leaves may drop prematurely, resulting in decay.
+            In some cases, the disease can spread between stems and fruit, causing lesions and reducing fruit quality.<br>
+            <b>Effect: </b>Septoria leaf spot can reduce the photosynthetic capacity of tomato plants, which can reduce
+            Decreased plant vigor, lower yield and fruit quality. Severe infestations can cause significant crop losses.
+            <br>
+            <b>Management: </b>Managing septoria leaf spot on tomato plants involves several strategies: <br>
+            <b>Resistant Varieties: </b>Septoria leaf spot resistant or tolerant tomato varieties can be planted.
+            Effective in disease prevention. <br>
+            <b>Crop rotation: </b>Avoid planting tomatoes in the same spot year after year to reduce accumulation
+            Fungus seeds in the soil. <br>
+            <b>Sanitation: </b>Remove and destroy infected plant material to further reduce the source of fungal spores
+            infection <br>
+            <b>Fungicides: </b>Here are some fungicides that can be considered for control of septoria leaf spot on tomatoes.
+            Plants: <br>
+            <b>Chlorothalonil, Mancozeb, Azoxystrobin, Trifloxystrobin + Tebuconazole, Copper-Based 
+              Fungicides.</b> <br>
+              <b>Cultural Practices: </b>Maintain proper spacing between tomato plants to improve and reduce air circulation
+              Moisture, which can create favorable conditions for fungal growth. <br>
+              Regular scouting and monitoring of tomato plants for signs of septoria leaf spot is important
+              Early detection and timely implementation of control measures to minimize yield loss. integrated
+              Disease management methods that combine different techniques are often the most effective way
+              Control Septoria leaf spot in tomato crops.
+            <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

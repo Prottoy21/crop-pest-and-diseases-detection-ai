@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Cashew Healthy
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Cashew Healthy
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Assessing the health of a cashew tree involves checking various aspects including the appearance, growth and overall condition of the plant. Here are some key indicators to understand if a cashew tree is healthy:<br>
+            Here are some key features and effects of cassava mosaic disease: <br>
+            <b>1. Leaf Health:</b> <br>
+           - Check the leaves for their color and appearance. Healthy cashew tree leaves should be vibrant green, indicating adequate chlorophyll and photosynthesis. <br>
+           - Look for signs of discoloration, spots, or drying. Discolored or yellow leaves can be a sign of nutrient deficiency or disease. <br>
+
+            <b>2. New growth: </b><br>
+          - Healthy cashew trees show new growth, leaves and branches appear regularly. Absence of new growth can be a sign of stress or an underlying problem. <br>
+
+            <b>3. Pest and Disease Control:</b> <br>
+          - Inspect the plant for signs of pests or disease, such as discolored or damaged leaves, and take appropriate measures to address any infestation. <br>
+
+            <b>4. Trimming and Maintenance:</b> <br>
+          - Well maintained cashew trees are pruned to maintain a good canopy shape and encourage air circulation. Proper pruning helps prevent overcrowding and disease. <br>
+
+            <b>5. Soil and Drainage:</b> <br>
+          - Make sure the soil is well drained and not waterlogged. Excess moisture in the root zone can cause root rot and other problems.<br>
+            - Check that the soil pH is within the ideal range for cashew trees, which is usually slightly acidic to neutral. <br>
+
+            <b>6. Fruit production:</b> <br>
+          - The appearance of cashew apples and the development of cashew nuts (seeds) are signs of a healthy plant. Absence of fruit production may indicate a problem with plant health. <br>
+
+            <b>7. Weed and Grass Control: </b><br>
+          - Ensure that the area around the cashew tree is clear of competing weeds and grasses, as these can inhibit the plant's growth and nutrient uptake. <br>
+
+            <b>8. Proper watering:</b> <br>
+          - Excessive water or under water can damage the cashew tree. Ensure that the plant receives adequate water by regular but not excessive irrigation. <br>
+
+          <b>9. Nutritional Status:</b> <br>
+          - Conduct soil tests to determine if plants have access to essential nutrients. Adjust fertilization schedule if nutrient deficiencies are identified. <br>
+
+          <b>10. Environment and Climate:</b><br>
+          - Ensure that the cashew tree is in a suitable environment for its growth, with adequate sunlight and protection from severe weather conditions such as strong winds and snow. <br>
+
+          <b>11. Overall Growth and Strength:</b> <br>
+          - A healthy cashew tree should display overall vigor, with strong, sturdy branches and a well-shaped canopy.<br>
+
+          <b>12. Monitoring over time: </b><br>
+        - Regularly monitor plant condition and growth over time to detect any gradual changes or problems. <br>
+          </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+     <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

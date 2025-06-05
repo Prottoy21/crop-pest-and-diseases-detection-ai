@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Tomato Leaf curl Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Tomato Leaf curl
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Leaf curl in tomato plants is a symptom of virus, physiological or environmental complications.
+            causes rather than a specific disease. It refers to abnormal curling, twisting, and distortion
+            Tomato leaves. Leaf curl can affect young and mature leaves and can result in reduced plant vigor
+            and fruit production. This is a common problem in tomato cultivation and the underlying causes can vary.<br>
+            Here are some common causes and contributing factors to leaf curl on tomato plants: <br>
+            Tomato Yellow Leaf Curl Virus (TYLCV): This is one of the most common viruses responsible for leaf curl.
+            Curl in the tomatoes. It is infected by whitefly (Bemicia tabaci) and can cause severe damage to tomatoes
+            Plants, including leaf curling, yellowing and stunted growth.<br>
+            <b>Cucumber mosaic virus (CMV): </b>CMV can also induce leaf curl and mosaic-like symptoms in tomatoes.
+            Plants. It is transmitted by aphids.<br>
+            <b>Environmental stress: </b>Factors such as high temperatures, drought or extreme fluctuations
+            Temperature and humidity can stress tomato plants and the leaves may curl in response.
+            <br>
+            <b>Nutritional Imbalance: </b>An imbalance in nutrient levels, especially excess nitrogen, can cause physiological
+            Tomatoes get stressed and the leaves curl. <br>
+            <b>Root Damage: </b>Damage to the plant's root system, such as through root injury or nematode infection,
+            Leaves may curl. <br>
+            <b>Herbicide or pesticide damage: </b>Use of certain herbicides or pesticides, especially if not applied
+            Correctly or at recommended rates, tomato plants can cause leaf curl and other symptoms.<br>
+            <b>Varietal differences: </b>Some tomato varieties naturally exhibit more leaf curl than others for genetic reasons
+            because <br>
+            <b>Genetic factors: </b>In some cases, certain tomato plants may have an innate susceptibility to leaf curl, which
+            They may be influenced by genetics. <br>
+            Viral resistance breakdown: Varieties that were previously resistant to certain viruses, such as TYLCV,
+            If the virus evolves to overcome resistance, leaves may curl. <br>
+            Management of leaf curl in tomato plants depends on the underlying cause. Here are some common ones
+            Guidelines for managing and preventing leaf curl: <br>
+            <b>Plant Resistant Varieties: </b>Choose tomato varieties resistant to specific viruses if applicable.<br>
+            <b>Pest control: </b>Implement measures to control the vectors that transmit pests, such as whiteflies or aphids.
+            the virus<br>
+            <b>Cultural Practices: </b>Maintain proper soil fertility, provide adequate moisture and avoid over fertilization. <br>
+            <b>Environmental control: </b>Provide adequate shade and irrigation in hot weather to reduce stress
+            On the tomato plant.<br>
+             
+            <b>Good hygiene: </b>Practice good garden hygiene, including removing and disposing of infected plants
+            material, to reduce the spread of disease.
+            If you suspect that a virus is causing leaf curl on your tomato plant, it's important to consult
+            Local agricultural experts or extension services for proper disease diagnosis and management strategies
+            Your region and tomato variety.
+            <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

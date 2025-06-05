@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Cassava green mite Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Cassava green mite
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Cassava green mite disease, also known as cassava green mite infestation, is not caused by
+            A disease is rather caused by a specific pest. This pest is commonly called "cassava green".
+            mite” or “Mononichelus tanazoa.” These mites are small arachnids that feed on cassava plants (manihot) and can damage leaves, reducing plant vigor and potentially affecting crop yield.<br>
+            Here are some key features and effects of cassava green mite infestation: <br>
+            <b>Mite Appearance: </b>Cassava green mite is very small, usually less than 0.5 mm. they are
+            Cassava leaves have a green color, which can make them difficult to detect. <br>
+            <b>Symptoms: </b>Early symptoms of cassava green mite include stippling and yellowing.
+            Cassava leaves. Mites pierce plant cells and feed by sucking the cell contents, which grow
+            Small, yellow or white spots (stippling) on ​​the upper part of the leaves. Leaves drop as the infestation progresses
+            May turn yellow or bronze, and in severe cases, leaves may drop. <br>
+            <b>Impact: </b>A heavy infestation of cassava green mite can reduce photosynthesis and growth,
+            leading to low cassava yields. In severe cases, rotting can occur, further compromising plant health.
+            <br>
+            <b>Spread: </b>Cassava green mites can be spread by wind dispersal, carried on clothing,
+            Equipment, or animals, and by movement of infected plant material. <br>
+
+            Here are some acaricides (miticides) that can be considered for cassava green mite management:<br>
+             
+            <b>Abamectin, Fenazaquin, Bifenazate, Spiromesifen.</b> <br>
+            Biological Control: Can be introduced as predatory mites and insects that feed on cassava green mites.
+            Natural enemies help control pests. <br>
+            Cultural Practices: Proper sanitation including removal and destruction of infected plant material,
+            Can reduce the source of mites. Maintain good field hygiene and prevent spread of infection
+            Essential from one area to another.<br>
+            Resistant Varieties: Some cassava varieties may show resistance to cassava green mite and plant hopper
+            These varieties can reduce the risk of infection.<br>
+            Cassava green mite can be a significant concern for cassava growers and monitoring cassava is essential
+            Regular plants for signs of infection. Early detection and appropriate management strategies can help
+            Minimize the impact of cassava green mite infestation on crop productivity.
+            <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>

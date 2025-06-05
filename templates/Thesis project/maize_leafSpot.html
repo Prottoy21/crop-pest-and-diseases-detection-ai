@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/static/img/logo.png" />
+
+    <title>Agriculture | The main industry in this rural location</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="{{url_for('home')}}" class="navigation__link">Home page</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about" class="navigation__link">About Plants</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header_cashew_anthracnose">
+      <div class="header__logo-box">
+        <a href="{{url_for('home')}}"><img src="/static/img/Greenery.png" alt="Logo" class="header__logo" /></a>
+      </div>
+    </header>
+
+    <main class="showcase">
+      <section class="section-about-page">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Maize Leaf spot Disease
+          </h2>
+        </div>
+
+
+        <div class="row">
+          <div class="image-container">
+            <img         
+                alt="Photo 1"
+                data-aos="fade-above"
+                data-aos-easing="ease-in"
+                src="{{ user_image }}"
+              />
+          </div>
+          <div>
+            <h3
+              class="heading-tertiary u-margin-bottom-small">
+              Maize Leaf spot
+            </h3>
+            <p
+              class="paragraph"
+            >
+            Leaf spot of corn plants refers to a group of fungal diseases caused by different species
+            fungi, and they can affect maize crops in different regions.<br>
+            Here are some key facts about corn leaf spot disease: <br>
+            <b>Symptoms: </b>Symptoms of corn leaf spot disease usually include the following: <br>
+            Circular to irregularly shaped lesions: Lesions may appear as small, dark brown to black spots
+            The leaves. As the disease progresses, spots may enlarge and coalesce, forming large, irregular shapes
+            Lesions may have a gray or tan center and often have a distinct dark margin.<br>
+            <b>Yellowing of leaves: </b>The surrounding area of ​​infected leaves may show yellowing (chlorosis) as the disease
+            Affects the photosynthetic capacity of leaf tissue.
+            <br>
+            <b>Causative organisms: </b>Several fungal species can cause leaf spot disease in corn, including
+            Cercospora, Bipolaris, Xerohilum and others. <br>
+            <b>Impact: </b>Leaf spot disease can reduce the photosynthetic capacity of corn plants. <br>
+            Management: Control of corn leaf spot disease usually involves several strategies: <br>
+            <b>Resistant Varieties: </b>Planting maize varieties that are resistant or tolerant to certain leaf spot pathogens.
+            can be an effective preventive measure.<br>
+            <b>Crop rotation: </b>Avoiding continuous planting of corn on the same field can help reduce deposition
+            Fungus seeds in the soil. <br>
+            <b>Sanitation: </b>Remove and destroy infected plant material to reduce the source of fungal spores. <br>
+            <b>Fungicides: </b>In severe cases, chemical fungicides can be used to control leaf spot disease. Fungicide
+            Should be applied according to label directions and in consultation with agricultural experts.
+            Here are some fungicides that can be considered for managing corn leaf spot disease: <br>
+             
+            <b>Azoxystrobin, Mancozeb, Chlorothalonil, Tebuconazole, Propiconazole.</b> <br>
+            Specific management methods for leaf spot disease may vary depending on region, severity
+            disease, and the fungal species involved. Integrated Pest Management (IPM) practices, which
+            By combining different strategies, leaf spot diseases can be effective in reducing them
+            Environmental impact of control measures. <br>
+            </p>
+          </div>         
+        </div> 
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            media="(max-width: 37.5em)"
+          />
+          <img
+            data-aos="fade-in"
+            data-aos-easing="1500ms"
+            srcset="/static/img/Greenery.png"
+            alt="Full logo"
+            src="/static/img/Greenery.png"
+            class="img-size"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="100"
+              >
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li
+                class="footer__item"
+                data-aos="fade-up"
+                data-aos-easing="ease-in"
+                data-aos-delay="400"
+              >
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col-1-of-2"
+          data-aos="fade-right"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Prottoy Das</a> for his 
+            <a href="#" class="footer__link">Project</a>.
+            Copyright &copy; by Prottoy Das. You are 100% allowed to use this
+            webpage for both personal and commercial use, but NOT to claim it as
+            your own design. A credit to the original author, Prottoy Das, is of
+            course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{ url_for('static', filename='scroll.js') }}"></script>
+  </body>
+</html>
